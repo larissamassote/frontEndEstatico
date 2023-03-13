@@ -1,0 +1,9 @@
+Enunciado
+Desenvolva uma página de vendas de algum produto escolhido, onde tenha uma apresentação inicial do produto, 
+abaixo outra apresentação de uma empresa fictícia desse produto, ainda abaixo uma tabela com comparativos de
+planos distintos do produto e por último um formulário onde o usuário colocaria seus dados e enviaria para que
+a empresa fictícia entrasse em contato.
+
+O projeto deve ser colocado em um repositório git e incluído o URL do dele como resposta.
+
+Obs: coloque o repositório do git como público.

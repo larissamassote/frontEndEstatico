@@ -1,0 +1,141 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Larissa Massote - Questionário</title>
+        <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+        <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+    <body> 
+        <!--JavaScript at end of body for optimized loading-->
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <header>
+            <h1 id="titulo">Questionário</h1>
+            <h2 id="subtitulo">Front End Estático</h2>
+        </header>
+        <main>
+            <div class="Empresa">
+                <h1>Empresa</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type 
+                    specimen book. It has survived not only five centuries, but also the leap into 
+                    electronic typesetting, remaining essentially unchanged. It was popularised in 
+                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                    and more recently with desktop publishing software like Aldus PageMaker 
+                    including versions of Lorem Ipsum.</p>
+            </div>
+            <div class="Produtos">
+                <h1>Produtos</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type 
+                    specimen book.</p>
+                    <br>
+                
+            </div> 
+                <form class="Contato" method="post">
+                    <h1>Escolha um produto do seu interesse e entraremos em contato...</h1>
+
+                <div class="opcoes">
+                    <div class="produto">
+                        <input type="radio" id="fproduto1" value="Produto1" name="Produtos" >
+                        <label for="fproduto1">Produto 1</label><br>
+                    </div>
+                    <div class="produto">
+                        <input type="radio" id="fproduto2" value="Produto2" name="Produtos" >
+                        <label for="fproduto2">Produto 2</label><br>
+                    </div>
+                    <div class="produto">
+                        <input type="radio" id="fproduto3" value="Produto3" name="Produtos" >
+                        <label for="fproduto3">Produto 3</label><br>
+                    </div>
+                </div>
+                
+
+
+
+                <div class="formularioInferior">
+
+                    <label class="mdc-text-field mdc-text-field--filled mdc-text-field--no-label">
+                        <span class="mdc-text-field__ripple"></span>
+                        <input class="mdc-text-field__input" type="text" placeholder="Nome Completo" aria-label="Label">
+                        <span class="mdc-line-ripple"></span>
+                    </label><br><br>
+
+                    <label class="mdc-text-field mdc-text-field--filled mdc-text-field--label-floating">
+                        <span class="mdc-text-field__ripple"></span>
+                        <span class="mdc-floating-label mdc-floating-label--float-above" id="my-label-id">
+                        E-mail:
+                        </span>
+                        <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id" value="fulano@contato.com.br">
+                        <span class="mdc-line-ripple"></span>
+                    </label><br><br>
+
+                    <label class="mdc-text-field mdc-text-field--filled mdc-text-field--label-floating">
+                        <span class="mdc-text-field__ripple"></span>
+                        <span class="mdc-floating-label mdc-floating-label--float-above" id="my-label-id">
+                        Whatsapp:
+                        </span>
+                        <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id" value="(xx) xxxxx-xxxx">
+                        <span class="mdc-line-ripple"></span>
+                    </label><br><br>
+
+                    <label class="mdc-text-field mdc-text-field--outlined mdc-text-field--textarea mdc-text-field--no-label">
+                        <span class="mdc-notched-outline">
+                        <span class="mdc-notched-outline__leading"></span>
+                        <span class="mdc-notched-outline__trailing"></span>
+                        </span>
+                        <span class="mdc-text-field__resizer">
+                        <textarea class="mdc-text-field__input" rows="4" cols="80"placeholder="Mensagem" aria-label="Label"></textarea>
+                        </span>
+                    </label><br><br>
+
+                    <button id="basic-switch" class="mdc-switch mdc-switch--unselected" type="button" role="switch" aria-checked="false">
+                        <div class="mdc-switch__track"></div>
+                        <div class="mdc-switch__handle-track">
+                          <div class="mdc-switch__handle">
+                            <div class="mdc-switch__shadow">
+                              <div class="mdc-elevation-overlay"></div>
+                            </div>
+                            <div class="mdc-switch__ripple"></div>
+                            <div class="mdc-switch__icons">
+                              <svg class="mdc-switch__icon mdc-switch__icon--on" viewBox="0 0 24 24">
+                                <path d="M19.69,5.23L8.96,15.96l-4.23-4.23L2.96,13.5l6,6L21.46,7L19.69,5.23z" />
+                              </svg>
+                              <svg class="mdc-switch__icon mdc-switch__icon--off" viewBox="0 0 24 24">
+                                <path d="M20 13H4v-2h16v2z" />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </button>
+                      <label for="basic-switch">Aceito receber informações de novos produtos.</label><br><br>
+
+                    <button class="mdc-button" >
+                        <span class="mdc-button__ripple"></span>
+                        <span class="mdc-button__label">Enviar</span>
+                    </button>
+                </div>
+            </form>
+        </main>
+        <footer class="page-footer">
+
+        </footer>
+    </body>
+    <script>
+
+        for(const el of document.querySelectorAll('.mdc-switch')){
+            const switchControl = new MDCswitch(el);
+        }
+
+
+    </script>
+</html>
