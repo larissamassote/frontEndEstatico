@@ -1,0 +1,124 @@
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v140/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+  
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+body{
+    background-color:#ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+}
+
+p{
+    line-height: 1.7;
+    color:black;    
+}
+main{
+    padding: 2% 20% 2% 20%;
+}
+    
+header{
+    background-color:#0e9390;
+    padding: 2% 15% 2% 10%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+#subtitulo{
+    color: #e9cd4d;
+    font-weight: 400;
+    margin-left: 2.5%;
+}
+#titulo, #subtitulo{
+    padding: 0px 0px 0px 10px;
+    
+}
+#titulo{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 0.2%;
+    color: rgb(29, 41, 69)
+}
+#subtitulo{
+    font-size: 20px;
+}
+footer{
+    background-color:rgb(14, 147, 144);
+}
+.produtos, .contato{
+    padding: 3% 0% 1% 0%;
+}
+
+.produtos h1, .empresa h1{
+    font-size: 30px;
+    font-weight: 900;
+    padding: 0% 0% 2% 0%;
+    color:#1d2945;
+}
+.contato h1{
+    font-size: 20px;
+}
+
+.opcoes{
+    display: grid;
+    grid-template-columns: 17fr 17fr 17fr;
+    margin: 5%;
+}
+.produto{
+    width: 150px;
+    height: 200px;
+    background-color: #f8f9fa;
+    box-shadow:2px 2px 2px rgba(29, 41, 69, 0.1);
+    border-radius: 5%;
+    margin: 10px;
+    padding: 5%;
+
+}
+.produto:hover{
+    box-shadow:2px 2px 2px rgba(29, 41, 69, 0.3); 
+    scale: 1.02;
+}
+.produto:focus{
+    font-weight: bold;
+}
+
+.descricao{
+    color: rgba(29, 41, 69, 1);
+}
+.contato label{
+    padding: 1% 1% 1% 1%;
+    margin: 1% 1% 1% 1%;
+}
+
+.mdc-text-field{
+    width: 50%;
+}
+
+
+
